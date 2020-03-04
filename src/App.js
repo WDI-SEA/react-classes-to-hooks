@@ -4,7 +4,7 @@ import Todolist from './Todolist';
 
 function App() {
   return (
-    <Todolist tasks={[]}/>
+    <Todolist />
   );
 }
 
