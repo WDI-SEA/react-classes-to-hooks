@@ -29,8 +29,11 @@ To complete our lab, follow these instructions:
 **First** - think about how you would like to refractor our app's existing code to move from a class based component decleration for each component to a functional component/hook based action for our app. 
 
 **Second** - once updated to functional based components add in the functionality to:
-    - add an item from input to our task list. 
-    - on click, delete an item from our task list. 
+* add an item from input to our task list. 
+* on click, delete an item from our task list. 
+
+> NOTE: This project's 🐞 is more than just a typo! It requires more refactoring, you might even delete it all together.
+   
 
 ## 📦 Deliverable
 See checklist of features final app should include below. 
