@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Classes to Hooks Lab
+-----
+## 🥅 Objective
+This app currently renders basic input and list components for a todo list application. 
 
-## Available Scripts
+The app project tell us the following: 
+*  👾 There is a bug preventing us from moving further - right now our app can receive an input, but does not correctly append input to our list component.
+*  ❌ App should allow for user to delete items from list on click. 
+*  👻 App is currently written using class based components, but needs to be updated to functional components so that it can use modern React APIs!
 
-In the project directory, you can run:
+Using what we have learnd about React data flow, state, component lifecycle, hooks, and prop drilling update the app completing the missing project tasks above. 
 
-### `yarn start`
+Completed lab application should render a to do list that the user can add items to, and delete on click from our list. This application should be written using hooks and functional based components, update from our current class based component organization. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎣 Classes vs. Hooks
+All components in our app are currently written using a class based decleration (example: `class Todolist extends Component`). 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Since 2019 React has encouraged developers to move towards a new declerative format for component definitions. 
 
-### `yarn test`
+This development methodology allows for functional componets, as opposed to our perviously used class based components. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For more on functional components/React Hooks, and the new associated React APIs, see our lesson here: [Gitbook notes on react hooks](https://gawdiseattle.gitbook.io/wdi/16-react/01-hooks-intro).
 
-### `yarn build`
+## 🚶‍♀️ Steps to Achieve
+Our app is currently organized into components, defined in three seperate files: `Input.js`, `Tasks.js`, and a parent container component in `Todolist.js`.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To complete our lab, follow these instructions:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**First** - think about how you would like to refractor our app's existing code to move from a class based component decleration for each component to a functional component/hook based action for our app. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Second** - once updated to functional based components add in the functionality to:
+    - add an item from input to our task list. 
+    - on click, delete an item from our task list. 
 
-### `yarn eject`
+## 📦 Deliverable
+See checklist of features final app should include below. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Our final app will:*
+1.  Render a lightly styled todo list to the user
+2.  Allow user to input tasks. Tasks are rendered in list format. 
+3.  If user completes a task they can click to delete it form their list. 
+4.  App is written using modern React methods/APIs so that we can scale app in the future!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
